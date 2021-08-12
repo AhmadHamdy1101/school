@@ -96,6 +96,7 @@ header .container nav ul a:hover{
 header .container .login{
     margin-top: 20px;
     z-index:2;
+    displa:block;
 }
 header .container .login a{
     color:#fff;
