@@ -95,7 +95,7 @@ header .container nav ul a:hover{
 /*End navbar*/
 header .container .login{
     margin-top: 20px;
-    z-index:100;
+    z-index:50;
 }
 header .container .login a{
     color:#fff;
