@@ -76,7 +76,7 @@ header .container .logo img{
 nav{
     width: 68%;
     margin-top: 20px;
-    z-index:3;
+    z-index:1;
 }
 header .container nav ul{
     display: flex;
@@ -95,7 +95,7 @@ header .container nav ul a:hover{
 /*End navbar*/
 header .container .login{
     margin-top: 20px;
-    z-index:50;
+    z-index:2;
 }
 header .container .login a{
     color:#fff;
