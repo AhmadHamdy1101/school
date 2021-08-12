@@ -1,7 +1,7 @@
  let menu = document.querySelector(".menu");
  let openMenu = document.querySelector(".open-menu");
  let cloesMenu = document.querySelector(".close-meu");
-let login = document.querySelector(".login")
+let login = document.querySelector(".login a")
 
  openMenu.addEventListener('click', function(){
      menu.style.display = "flex";
@@ -15,7 +15,7 @@ let login = document.querySelector(".login")
  cloesMenu.addEventListener('click', function(){
     menu.style.display = "none";
     cloesMenu.style.display = "none";
-    openMenu.style.display = "inline-block";
+    openMenu.style.display = "block";
    login.style.display = "block";
 
  })
