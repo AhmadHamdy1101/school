@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+/*start variables*/
+:root{
+    --main-font :  'Montserrat', sans-serif;
+    --sacond-font: 'Anton', sans-serif;
+    --main-color: #6e7955;
+}
+/*End variables*/
+
+.header {
+    position: relative;
+}
+
+.regestration{
+    display: flex;
+    justify-content: center;
+}
+.login{
+    color: var(--main-color);
+    border: 3px solid var(--main-color);
+    border-right: none;
+    border-radius: 6px;
+    padding: 14px 14px;
+    margin-top: 40px;
+    width: 50vh;
+
+}
+.login form label{  
+    font-size: 19px;
+    text-transform: uppercase;
+    margin-top: 18px;
+    font-weight: 500;}
+.login form input{  
+      border: 1px solid var(--main-color);
+    border-radius: 4px;
+    margin-top: 10px;
+    width: 100%;
+    height: 32px;
+    margin-bottom: 15px;}
+.login h1{
+    color: var(--main-color);
+    text-transform: uppercase;
+}
+.login form{
+    display: flex;
+    flex-direction: column;
+}
+.login form #login-btn{
+    background: var(--main-color);
+    color: #fff;
+    font-weight: 700;
+    margin-top: 30px;
+    height: 7vh;
+
+
+}
+.signup{
+    color: var(--main-color);
+    border: 3px solid var(--main-color);
+    border-radius: 6px;
+    padding: 14px 14px;
+    margin-top: 40px;
+    width: 50vh;
+}
+.signup h1{
+    color: var(--main-color);
+    text-transform: uppercase;
+}
+.signup form{
+    display: flex;
+    flex-direction: column;
+}
+.signup form label{
+    font-size: 19px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    font-weight: 500;
+}
+.signup form input{
+    border: 1px solid var(--main-color);
+    border-radius: 4px;
+    margin-top: 10px;
+    width: 100%;
+    height: 32px;
+    margin-bottom: 15px;
+}
+.signup form #signup-btn{
+    background: var(--main-color);
+    color: #fff;
+    font-weight: 700;
+    margin-top: 30px;
+    height: 7vh;
+
+}
+@media screen and (max-width:500px) {
+    .regestration{
+        flex-direction: column;
+        align-items: center;
+    }
+    .login{
+        border-right: 3px solid var(--main-color);
+    }
+    
+}
